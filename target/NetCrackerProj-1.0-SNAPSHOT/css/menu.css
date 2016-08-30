@@ -1,0 +1,119 @@
+#menu {
+    width: 762px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+#menu ul {
+    display: block;
+    width: 732px;
+    height: 36px;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 11px 0 0;
+    padding: 0 29px 0 0;
+    border-bottom: 1px solid #AEAEAE;
+}
+
+#menu ul li {
+    list-style-type:none;
+    float: left;
+    font: 12px/36px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#menu ul li a {
+    width: 74px;
+    height: 36px;
+    display: block;
+    padding: 0;
+    color: #555;
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 1px 0 0;
+    top: 0px;
+    left: 0px;
+}
+
+#menu ul li a:hover {
+    width: 74px;
+    height: 36px;
+    text-decoration: none;
+    background: #AEAEAE;
+    color: #fff;
+}
+
+#menu ul li.active {
+    width: 74px;
+    display: block;
+    height: 36px;
+    background: #AEAEAE;
+    color: #fff;
+    text-align: center;
+    margin: 0 1px 0 0;
+}
+
+#wrap {
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+}
+
+#window {
+    width: 300px;
+    height: 130px;
+    margin: auto;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+}
+
+#login input {
+    height: 25px;
+    width: 290px;
+}
+
+#login input[type="text"] {
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+#login input[type="text"]:focus,
+#login input[type="text"].focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+#login input[type="password"] {
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+#login input[type="password"]:focus,
+#login input[type="password"].focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+}
+
+#login input[type="submit"] {
+    color: #fff;
+    background-color: #6496c8;
+    text-shadow: -1px 1px #417cb8;
+    border: none;
+    margin-left: 3px;
+}

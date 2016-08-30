@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NCP:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="NetCrackerProj-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="NCP:war exploded" />
+    </root>
+  </artifact>
+</component>

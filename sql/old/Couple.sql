@@ -1,0 +1,15 @@
+Create Table Couple
+(
+	ID INTEGER CONSTRAINT pk_couple PRIMARY KEY,
+	IDSubject INTEGER,
+	IDGroup INTEGER,
+	Nmb NVARCHAR2(25),
+	IDaudience INTEGER,
+	BeginC DATE,
+	EndC DATE,
+	Star INTEGER,
+	Dayweek NVARCHAR2(25),
+	CONSTRAINT fk_GroupCouple FOREIGN KEY(IDGroup) REFERENCES Grp(ID),
+	CONSTRAINT fk_SubjectCouple FOREIGN KEY(IDSubject) REFERENCES Subject(ID),
+	CONSTRAINT fk_AudienceCouple FOREIGN KEY(IDAudience) REFERENCES Audience(ID)
+);

@@ -1,0 +1,38 @@
+#cnt {
+    width: 762px;
+    margin: auto;
+}
+#cnt div{
+    display:inline-block;
+    margin-top:10px;
+    padding-top: 10px;
+}
+.btn {
+    border-radius: 2px;
+    font-family: Arial, serif;
+    color: #373737;
+    font-size: 20px;
+    background: #f3f4f4;
+    border: solid #737373 1px;
+    text-decoration: none;
+    width: 762px;
+    height: 40px;
+    text-align: center;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background: #3d3d3d;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*--------------------------------------------*/
+.main {
+    width: 762px;
+    margin: 0 auto;
+    text-align: center;
+}
+

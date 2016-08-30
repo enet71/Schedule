@@ -1,0 +1,5 @@
+CREATE TABLE Audience(
+	ID INTEGER CONSTRAINT pk_audience PRIMARY KEY,
+	Building VARCHAR(25),
+	Nmb VARCHAR(25)
+);

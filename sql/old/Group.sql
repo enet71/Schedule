@@ -1,0 +1,7 @@
+Create Table Grp
+(
+	ID INTEGER CONSTRAINT pk_group PRIMARY KEY,
+	Name NVARCHAR2(25),
+	Course INTEGER,
+	Faculty NVARCHAR2(25)
+);

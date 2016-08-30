@@ -1,0 +1,8 @@
+Create Table Grp
+(
+	ID INTEGER CONSTRAINT pk_group PRIMARY KEY,
+	Name NVARCHAR2(100),
+	Course INTEGER,
+	IDFaculty INTEGER,
+	CONSTRAINT fk_FacultyGroup FOREIGN KEY(IDFaculty) REFERENCES Faculty(ID)
+);
